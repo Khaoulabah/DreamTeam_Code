@@ -1,13 +1,17 @@
+import ImageList
+
 """
-    The purpose of this class is to provide images from user into image list for regional layer.
+    The purpose of this class is to provide images from user into image list for regional layer. 
+    Image has the type jpeg and is passed to ImageList class. 
 """
 class User:
-    images = []
+    userImage = ""
+    list = ImageList()
 
     """
-    Enable user to provide multiple images.
+    Insert user provided image into the list.
 
-    @param item: Image which is provided by user
+    @param item: Image which is provided by user and stored in the array 
     """
-    def ProvideImage(item):
+    def InsertToList(item):
         pass

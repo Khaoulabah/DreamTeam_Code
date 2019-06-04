@@ -1,11 +1,13 @@
 """
-    Show the result of segment and frame of the images to user
+    Displays item details of the classified image and holds an array of itemtype and items, named itemList.
 """
 class ItemDisplay:
-    imageList = []
+    type = ""
+    item = ""
+    itemList = []
 
     """
-    Display the image details like categories
+    Display the image details
     
     @param item: Image item retrieved from Items class
     """

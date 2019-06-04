@@ -21,13 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Error.py" />
     <Compile Include="ImageList.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DisregardedNonRecyclable.py" />
+    <Compile Include="ROIPooling.py" />
     <Compile Include="ItemDetails.py" />
-    <Compile Include="Items.py" />
-    <Compile Include="ItemNotFound.py" />
     <Compile Include="RCNN.py" />
     <Compile Include="User.py" />
   </ItemGroup>

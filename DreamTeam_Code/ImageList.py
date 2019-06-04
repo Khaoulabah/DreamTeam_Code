@@ -1,19 +1,14 @@
 """
-    The purpose of this class is to retrieve images from user and detect and display error message when image cannot found
+    The purpose of this class is to store the images in an array and detect if there 
+    is any error that occurs within the file such as file size, file type, name, etc.
 """
 class ImageList:
+    imageList = []
+
     """
     Get images from list.
 
-    @param item: Images which are provided by user
+    @param img: Images which are provided by user
     """
-    def RetrieveImages(item):
-        pass
-
-    """
-    Call CannotFoundImage class to display error message
-
-    @param item: Images which are provided by user
-    """
-    def CannotFoundImage(item):
+    def FormatValidation(img):
         pass
