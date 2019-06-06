@@ -1,9 +1,11 @@
+import Error
 """
     The purpose of this class is to store the images in an array and detect if there 
     is any error that occurs within the file such as file size, file type, name, etc.
 """
 class ImageList:
     imageList = []
+    error = Error()
 
     """
     Get images from list.
