@@ -5,17 +5,17 @@ class Error:
     """
     Display error message.
     """
-    def DisplayError():
-        pass
+    def DisplayError:
+        return 'display_error'
 
     """
     Display item error message.
     """
-    def ItemNotFoundError():
-        pass
+    def ItemNotFoundError:
+        return 'item_not_found'
 
     """
     Display image quality error message.
     """
-    def ImageQualityError():
-        pass
+    def ImageQualityError:
+        return 'image_quality_error'
