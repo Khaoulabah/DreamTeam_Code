@@ -11,5 +11,5 @@ class ItemDisplay:
     
     @param item: Image item retrieved from Items class
     """
-    def Display(item):
+    def Display():
         pass
