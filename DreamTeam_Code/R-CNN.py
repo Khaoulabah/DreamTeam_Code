@@ -1,10 +1,12 @@
 import ImageList
+import ROIPooling
 
 """
     The purpose of this class is classifying objects using the proposed layer and database provided.
 """
-class RCNN:
+class R-CNN:
     list = ImageList()
+    roi_pooling = ROIPooling()
 
     """
     Segments the given image and returns the segmented image.
