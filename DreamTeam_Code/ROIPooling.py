@@ -4,7 +4,7 @@ import ImageList
 """
     This class classifies framed items, into objects using the user provided database. 
 """
-class ItemDisplay:
+class ROIPooling:
     list = ImageList()
     
     """
