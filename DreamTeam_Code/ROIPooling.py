@@ -1,5 +1,6 @@
 import ImageList
 
+
 """
     This class classifies framed items, into objects using the user provided database. 
 """
@@ -12,7 +13,7 @@ class ItemDisplay:
     @param img: Image item retrieved from R-CNN class 
     """
     def ClassifyItemType(img):
-        pass
+        return img
 
     """
     Frame objects on images
