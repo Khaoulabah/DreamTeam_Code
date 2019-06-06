@@ -1,4 +1,5 @@
 import ImageList
+import ImageDetails
 
 
 """
@@ -6,6 +7,7 @@ import ImageList
 """
 class ROIPooling:
     list = ImageList()
+    imageDetails = ImageDetails()
     
     """
     Classify item types of image details.
