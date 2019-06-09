@@ -1,13 +1,14 @@
 import ImageList
-import ImageDetails
-
+import ItemDetails
 
 """
     This class classifies framed items, into objects using the user provided database. 
 """
 class ROIPooling:
     list = ImageList()
-    imageDetails = ImageDetails()
+
+    # list of ItemDetails
+    itemDetails = []
     
     """
     Classify item types of image details.

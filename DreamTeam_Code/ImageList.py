@@ -1,5 +1,6 @@
 import Error
-import R-CNN
+import R_CNN
+
 """
     The purpose of this class is to store the images in an array and detect if there 
     is any error that occurs within the file such as file size, file type, name, etc.
@@ -7,7 +8,7 @@ import R-CNN
 class ImageList:
     imageList = []
     error = Error()
-    rcnn = R-CNN()
+    rcnn = R_CNN()
 
     """
     Get images from list.

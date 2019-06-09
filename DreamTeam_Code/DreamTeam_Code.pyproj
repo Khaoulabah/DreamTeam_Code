@@ -30,7 +30,7 @@
     <Compile Include="ImageList.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="R-CNN.py" />
+    <Compile Include="R_CNN.py" />
     <Compile Include="ROIPooling.py" />
     <Compile Include="ItemDetails.py" />
     <Compile Include="ROIPoolingStrategy.py" />
