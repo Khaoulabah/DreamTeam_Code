@@ -21,13 +21,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="SquareFrame.py" />
+    <Compile Include="RectangleFrame.py" />
+    <Compile Include="CircleFrame.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Error.py" />
     <Compile Include="ImageList.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="R-CNN.py" />
     <Compile Include="ROIPooling.py" />
     <Compile Include="ItemDetails.py" />
-    <Compile Include="RCNN.py" />
+    <Compile Include="ROIPoolingStrategy.py" />
     <Compile Include="User.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
